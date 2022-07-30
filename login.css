@@ -1,0 +1,133 @@
+body{
+    background-image: url(https://image.vtc.vn/files/f2/2015/03/23/ve-dep-huyen-ao-ve-dem-cua-cac-thanh-pho-noi-tieng-the-gioi-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ }
+ #wrapper{
+ min-height: 70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #form-login{
+     max-width: 400px;
+     background-color: rgba(0,0,0,0.7);
+     flex-grow: 1;
+     padding: 30px 30px 40px;
+     box-shadow: 0px 0px 17px 2px rgba(255,255,255,0.8);
+ }
+ .form-heading{
+     font-size: 25px;
+     color: white;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ .form-input{
+     background: transparent;
+     border: 0;
+     outline: 0;
+     color: white;
+ flex-grow: 1;
+ }
+ .form-group{
+     border-bottom: 1px solid white;
+     margin-top: 15px;
+     margin-bottom: 20px;
+     display: flex;
+ }
+ .form-input::placeholder{
+     color: white;
+ }
+ .form-submit{
+     background: transparent;
+     border:1px solid white;
+     width: 100%;
+     color: #ff9800;
+     text-transform: uppercase;
+     padding: 6px 10px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     background-color: #622a95;
+ }
+ .form-submit:hover{
+     border:1px solid  #5d2e86 ;
+    background-color:  transparent;
+ }
+ .form-group i {
+     color: #ff9800;
+     font-size: 15px;
+     padding-top: 5px;
+     padding-right: 10px;
+     padding-bottom: 5px;
+ }
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ ul.menu{
+  
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     background-color: transparent;
+     align-items: center;
+     
+ }
+ 
+ ul.menu>li{
+     display: flex;
+     min-width: 100px;
+     text-align: center;
+     margin-left: 100px;
+ }
+ ul.menu>li>i{
+     padding-top: 8px;
+     margin-left: 10px;
+     margin-right: 5px;
+     color: #ff9800;
+    
+ }
+ ul.menu>li>a{
+     display: block;
+     padding: 5px 5px;
+     text-decoration: none;
+     font-size: 130%;
+  color: #ff9800;
+ }
+ 
+ ul.menu>li>a:hover{
+     color: palevioletred;
+ }
+ #name{
+  
+     width: 20%;
+     color: white;
+     font-size: 1.5rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ h1{
+     margin: 0px;
+ }
+ .pass{
+     color:#ff9800; 
+     font-size:medium;
+     text-decoration: none;
+ }
+ .pass:hover{
+     color: coral;
+ }
+ /* SCROLLBAR */
+ ::-webkit-scrollbar {
+     width: 10px;
+   }
+   ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   }
+   ::-webkit-scrollbar-thumb {
+     background: linear-gradient(#00ccff, #d400d4);
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+     background-clip: content-box;
+   }

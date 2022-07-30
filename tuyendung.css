@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    align-items: center;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-bottom-color:yellow;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    margin-bottom:0; 
+    z-index: 1000;
+    top: 0;
+   
+   
+}
+div#first{
+    background-color: cornflowerblue;
+    
+    
+   
+    
+}
+div#first>div{
+ padding:10px 10px 10px 1200px;
+
+}
+.flex {
+    display: flex;
+    margin-top: 0;
+    
+}
+.col30{
+    width: 30%;
+}
+.col35{
+    width: 35%;
+}
+.col10{
+    width: 10%;
+}
+.col25{
+    width: 25%;
+}
+.col65{
+    width: 65%;
+}
+.col10 >div >a>img{
+    width: 100%;
+    padding: 0px 0px 0px 60px;
+}
+div>a>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: 3rem;
+    margin: 0;  
+}
+div>a{
+    text-decoration: none;
+}
+
+ul >li{
+    list-style-type: none;    
+}
+ul.flex >li>a{
+    text-decoration: none;
+   color: white;
+   
+   padding: 0px 0px 0px 0px;    
+}
+span{
+    font-size: 20px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.language{
+    /* padding: 0px 0px 20px 0px; */
+}
+.subject{
+align-items: center;
+   padding: 30px;
+
+}
+.subject:hover{
+    background-color:  rgb(75, 14, 132) ;
+}
+.subject:hover > a >*{
+    color:yellow;
+}
+ul.menu.option.sub>li{
+   padding: 10px;
+   border-bottom:  1px solid purple;
+
+}
+.option{
+    display: none!important;
+    position: absolute;
+    background-color: blueviolet;
+
+}
+.subject:hover .option{
+    display: block !important;   
+}
+.option::after{
+    content: " ";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent yellow transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 20%;
+   
+}
+.menu.option.sub{
+    margin-top: 10px;
+    margin-left: -20px;
+    border-radius: 10px 10px;
+    z-index: 1;
+ 
+}
+.menu.option.sub>li:hover{
+    background-color: rgb(75, 14, 132);
+}
+.menu.option.sub>li:hover >a{
+    color: yellow;
+}
+nav.content1{
+    background:linear-gradient(aquamarine, cornflowerblue) ;
+}
+nav.content1>div.num1{
+    text-align: center;
+    padding: 200px 0px 250px;
+    font-size: 2rem;
+}
+nav.content1>div>p.pa2{
+    font-weight: 600;
+    padding: 5px 0px 50px;
+}
+nav.content1>div>a{
+    background-color: mediumorchid;
+    padding: 5px 10px;
+    border: 2px solid mediumorchid;
+    border-radius: 30px;
+}
+nav.content1>div>a:hover{
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+nav.content1>div.num2{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+
+select>option{
+    color: black    ;
+}
+.ds{
+    padding: 10px 15px;
+    color: black;  
+}
+input.ds.but{
+    margin: 5px !important;
+}
+section.content2{
+   background-color: rgb(37, 99, 153);
+   color: black;
+}
+.content2>h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+.flex>.pa3{
+    padding: 30px;
+    line-height: 40px;
+}
+.flex>img{
+    padding: 70px;
+}
+.content3{
+    background-image: url(IMG/hinh-nen-bau-troi-dem-dep_090320443.jpg);
+}
+
+.content3>h1{
+    padding: 15px;
+    text-align: center;
+}   
+div.flex.info>div>a{
+    padding: 10px 100px 0px;
+   
+}
+div.flex.info>div>a>img{
+    width: 40%;
+    padding: 10px;
+}
+div.flex.info>div{
+    padding: 5px 5px 10px 60px
+}
+div.flex.info>div>a>p{
+    font-weight: 600;
+    padding-left: 150px
+}
+#hanoi{
+    padding-left: 157px !important;
+}
+#tphcm{
+    padding-left: 130px !important;
+}
+#nuocngoai{
+    padding-left: 140px !important;
+}
+div.flex.info>div>a>img:hover{
+    background-color: rgb(105, 224, 210);
+}
+div>a.xem{
+    border: 1px solid bule;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+   
+}
+div.butt{
+    text-align: center;
+    padding: 20px 0px 40px;
+}
+div.content2{
+    background-color: rgb(54, 87, 185);
+    text-align: center;
+    padding: 15px;
+} 
+div.content2>h2{
+    color: rgb(232, 221, 199);
+    font-size: 2rem;
+    border-top: 2px solid gray;
+    padding: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+ul.flex.content2>li{
+    text-align: center;
+    margin: auto;
+    padding: 0px 0px 0px 130px;
+
+}
+ul.flex.content2{
+    align-items: center;
+    
+}
+ul.flex.content2>li>i{
+    font-size: 3rem;
+    padding: 10px;
+}
+div.footers{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+align-items: center;
+padding: 20px;
+
+}
+div.footers>div{
+   margin: auto;
+}
+div.flex.st>div{
+    padding: 0px 15px;
+}
