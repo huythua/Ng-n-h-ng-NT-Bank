@@ -1,4 +1,82 @@
-*{
+body{
+    background-image: url(IMG/anhtpm.png);
+    background-size: cover;
+    height: 100vh;
+ }
+
+ #wrapper{
+ min-height: 130vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #form-login{
+     max-width: 400px;
+     background-color: rgba(0,0,0,0.7);
+     flex-grow: 1;
+     padding: 30px 30px 40px;
+     box-shadow: 0px 0px 17px 2px rgba(255,255,255,0.8);
+ }
+ .form-heading{
+     font-size: 25px;
+     color: white;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ .form-input{
+     background: transparent;
+     border: 0;
+     outline: 0;
+     color: white;
+     flex-grow: 1;
+ }
+ .form-group{
+     border-bottom: 1px solid white;
+     margin-top: 15px;
+     margin-bottom: 20px;
+     display: flex;
+ }
+ .form-input::placeholder{
+     color: white;
+ }
+ .form-submit{
+     background: transparent;
+     border:1px solid white;
+     width: 100%;
+     color: #ff9800;
+     text-transform: uppercase;
+     padding: 6px 10px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     background-color: #622a95;
+ }
+ .form-submit:hover{
+     border:1px solid  #5d2e86 ;
+    background-color:  transparent !important;
+ }
+ .form-group i {
+     color: #ff9800;
+     font-size: 15px;
+     padding-top: 5px;
+     padding-right: 10px;
+     padding-bottom: 5px;
+ }
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ ul.menu{
+  
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     background-color: transparent;
+     align-items: center;
+     
+ }
+ *{
     padding: 0;
     margin: 0;
   
@@ -93,7 +171,7 @@ ul.menu.option.sub>li{
     padding-left: 20px;
     border-bottom: 1px solid purple;
     text-align: center;
-
+background-color: blueviolet;
 }
 .option{
     display: none!important;
@@ -119,6 +197,7 @@ ul.menu.option.sub>li{
     margin-left: -38px;
     border-radius: 10px 10px;
     z-index: 1;
+
  
 }
 .menu.option.sub>li:hover{
@@ -164,5 +243,23 @@ div.col35.nav>a:hover{
     color: yellow; 
 }
 div.col35.nav>i:hover{
+    color: yellow;
+}
+ 
+ /* SCROLLBAR */
+ ::-webkit-scrollbar {
+     width: 10px;
+   }
+   ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   }
+   ::-webkit-scrollbar-thumb {
+     background: linear-gradient(#00ccff, #d400d4);
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+     background-clip: content-box;
+   }
+   p1{
+    text-align: center;
+    font-size: 65px;
     color: yellow;
 }
