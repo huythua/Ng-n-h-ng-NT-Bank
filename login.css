@@ -1,11 +1,10 @@
 body{
-    background-image: url(https://image.vtc.vn/files/f2/2015/03/23/ve-dep-huyen-ao-ve-dem-cua-cac-thanh-pho-noi-tieng-the-gioi-1.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/IMG/R.jpg);
     background-size: cover;
     height: 100vh;
  }
  #wrapper{
- min-height: 70vh;
+ min-height: 130vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -28,7 +27,7 @@ body{
      border: 0;
      outline: 0;
      color: white;
- flex-grow: 1;
+     flex-grow: 1;
  }
  .form-group{
      border-bottom: 1px solid white;
@@ -114,10 +113,15 @@ body{
  .pass{
      color:#ff9800; 
      font-size:medium;
-     text-decoration: none;
+     text-decoration:underline;
  }
  .pass:hover{
      color: coral;
+ }
+ .acc{
+    color:#ff9800; 
+    font-size:medium;
+    text-decoration:underline;
  }
  /* SCROLLBAR */
  ::-webkit-scrollbar {
