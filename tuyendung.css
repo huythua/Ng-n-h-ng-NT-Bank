@@ -7,8 +7,8 @@
 }
 header{
     align-items: center;
-    background: rgb(63,94,251);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: rgb(34,121,195);
+    background: linear-gradient(0deg, rgba(34,121,195,1) 0%, rgba(45,196,253,1) 100%);
     border-bottom-color:yellow;
     border-bottom-width: 10px;
     border-bottom-style: solid;
@@ -109,7 +109,7 @@ ul.menu.option.sub>li{
 }
 .option::after{
     content: " ";
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: transparent transparent yellow transparent;
     position: absolute;
@@ -118,7 +118,7 @@ ul.menu.option.sub>li{
    
 }
 .menu.option.sub{
-    margin-top: 10px;
+    margin-top: 27px;
     margin-left: -20px;
     border-radius: 10px 10px;
     z-index: 1;
@@ -136,21 +136,33 @@ nav.content1{
 nav.content1>div.num1{
     text-align: center;
     padding: 200px 0px 250px;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+nav.content1>div>p.pa1{
+    margin-bottom: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 nav.content1>div>p.pa2{
+    margin-top: 5px;
+    /* margin-bottom: 15px; */
+    /* padding-bottom: 20px; */
     font-weight: 600;
-    padding: 5px 0px 50px;
+    padding: 5px 0px 40px;
 }
 nav.content1>div>a{
     background-color: mediumorchid;
-    padding: 5px 10px;
-    border: 2px solid mediumorchid;
-    border-radius: 30px;
+    padding: 10px 10px;
+    border: 1px solid mediumorchid;
+    border-radius: 50px;
+    font-size: 35px;
 }
 nav.content1>div>a:hover{
     background-color: aquamarine;
     border-color: aquamarine;
+
 }
 nav.content1>div.num2{
     text-align: center;
@@ -163,7 +175,8 @@ select>option{
 }
 .ds{
     padding: 10px 15px;
-    color: black;  
+    color: black; 
+    font-size: 18px; 
 }
 input.ds.but{
     margin: 5px !important;
@@ -182,10 +195,14 @@ section.content2{
     line-height: 40px;
 }
 .flex>img{
-    padding: 70px;
+    width: 41%;
+    margin-top: -6px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .content3{
-    background-image: url(IMG/hinh-nen-bau-troi-dem-dep_090320443.jpg);
+    background-image: url(/IMG/hinh-nen-bau-troi-dem-dep_090320443.jpg);
 }
 
 .content3>h1{
@@ -197,10 +214,12 @@ div.flex.info>div>a{
    
 }
 div.flex.info>div>a>img{
+
     width: 40%;
     padding: 10px;
 }
 div.flex.info>div{
+ 
     padding: 5px 5px 10px 60px
 }
 div.flex.info>div>a>p{
@@ -236,9 +255,9 @@ div.content2{
     padding: 15px;
 } 
 div.content2>h2{
-    color: rgb(232, 221, 199);
+    color: yellow;
     font-size: 2rem;
-    border-top: 2px solid gray;
+    border-top: 2px solid yellow;
     padding: 5px;
     font-weight: 500;
     text-transform: capitalize;
@@ -258,8 +277,8 @@ ul.flex.content2>li>i{
     padding: 10px;
 }
 div.footers{
-    background: rgb(63,94,251);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: rgb(34,121,195);
+    background: linear-gradient(0deg, rgba(34,121,195,1) 0%, rgba(45,196,253,1) 100%);
 align-items: center;
 padding: 20px;
 
@@ -270,3 +289,17 @@ div.footers>div{
 div.flex.st>div{
     padding: 0px 15px;
 }
+#gototop {
+    position: fixed;
+    background-color: rgba(252,70,107,1);
+    font-size: 1.6rem;
+    right: 25px;
+    bottom: 90px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    /* display: none; */
+  }
