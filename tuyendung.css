@@ -88,7 +88,7 @@ align-items: center;
 
 }
 .subject:hover{
-    background-color:  rgb(75, 14, 132) ;
+    background-color:  darkblue;
 }
 .subject:hover > a >*{
     color:yellow;
@@ -101,7 +101,7 @@ ul.menu.option.sub>li{
 .option{
     display: none!important;
     position: absolute;
-    background-color: blueviolet;
+    background-color: darkblue;
 
 }
 .subject:hover .option{

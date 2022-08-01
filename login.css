@@ -5,7 +5,7 @@ body{
  }
 
  #wrapper{
- min-height: 130vh;
+ min-height: 80vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -172,6 +172,7 @@ ul.menu.option.sub>li{
     border-bottom: 1px solid purple;
     text-align: center;
 background-color: blueviolet;
+
 }
 .option{
     display: none!important;
@@ -195,7 +196,7 @@ background-color: blueviolet;
 .menu.option.sub{
     margin-top: 38px;
     margin-left: -38px;
-    border-radius: 10px 10px;
+    border-radius: 10px 10px !important;
     z-index: 1;
 
  
