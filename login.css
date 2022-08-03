@@ -178,7 +178,7 @@ background-color: blueviolet;
     display: none!important;
     position: absolute;
     background-color: blueviolet;
-
+    
 }
 .subject:hover .option{
     display: block !important;   
@@ -196,11 +196,19 @@ background-color: blueviolet;
 .menu.option.sub{
     margin-top: 38px;
     margin-left: -38px;
-    border-radius: 10px 10px !important;
+    
     z-index: 1;
 
  
 }
+.menu.option.sub>li:nth-child(1){
+border-radius: 10px 10px 0px 0px!important;
+
+}
+.menu.option.sub>li:nth-last-child(1){
+    border-radius: 0px 0px 10px 10px !important;
+    
+    }
 .menu.option.sub>li:hover{
     background-color: rgb(75, 14, 132);
 }

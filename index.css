@@ -1,11 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-  
+        
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+  
     align-items: center;
     background: rgb(63,94,251);
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
@@ -18,12 +19,14 @@ header{
     top: 0;
     left: 0;
     right: 0;
+   
 }
 main{
     background-color: yellow;
-    padding: 65px;
-   
-  
+    padding: 65px;  
+}
+header div{
+    max-width: 100%;
 }
 .flex {
     display: flex;
@@ -45,6 +48,7 @@ main{
     width: 65%;
 }
 .col10 >div >a>img{
+   
     width: 100%;
     padding: 0px 0px 0px 60px;
 }
@@ -522,7 +526,9 @@ div.contents>ul>li:hover{
     background-size: cover !important;
     background-position-y: bottom !important;
 }
-
+div.iconn{
+    display: none;
+}
 
 /* SCROLLBAR  */
  ::-webkit-scrollbar {
@@ -539,3 +545,122 @@ div.contents>ul>li:hover{
   .all{
     overflow: hidden;
   }
+  .mobile{
+    display: none;
+  }
+  .overplay{
+    display: none;
+  }
+  #mobile-input{
+    display: none;
+  }
+  .iconn{
+    display: none;
+  }
+
+
+  /*ipad*/
+  @media screen and (max-width: 1024px) {
+   header{
+   z-index: 0;
+   position: relative;
+
+   }
+   div.col10{
+    width: 20%;
+   }
+
+
+   main{
+    padding: 0px;
+   }
+  
+  div>ul.menu.flex{
+    display: none;
+  }
+    .andi{
+        display: none;
+    } 
+    .col25{
+        width: 46%;
+    }
+    .col35.nav.flex{
+    width: 1%;
+    }
+    .nav.col35>a{
+    display: none;
+    }
+    .nav.col35>i{
+        display: none;
+    }
+    .nav.col35>span{
+        display: none;
+    }
+    .flex.col35{
+        width: 53%;
+    }
+    nav.flex{
+        font-size: 12px;
+    }
+    label.iconn{
+        
+        margin-right: auto;
+        display: block;
+        font-size: 4rem;
+    }
+    label.iconn>i{
+        position: absolute;
+       color: black;
+       background-color: blueviolet;
+       padding: 5px 10px;
+       right: 0px;
+       top: 10px;
+    }
+    .overplay{
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.3 );
+        
+     }
+    .mobile{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom:0;
+        width: 260px;
+        max-width: 100%;
+        background-color: rgb(81, 11, 100);
+        transform: translateX(100%);
+       
+        transition: transform linear 0.5s;
+    }
+    .menu-mobile{
+        margin-top: 60px;
+    }    
+    .iconclose{
+        font-size: 3rem;
+        color:#666;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    .div-input:checked ~ .overplay{
+        display: block;
+    }
+    .div-input{
+        display: none;
+    }
+    .div-input:checked ~ .mobile{
+        transform: translateX(0%);
+       
+    }
+   
+        
+
+     
+}
