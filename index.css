@@ -99,6 +99,10 @@ ul.menu.option.sub>li{
     text-align: center;
 
 }
+ul.menu.option.sub>li:last-child{
+    border-bottom: 0px;
+}
+
 .option{
     display: none!important;
     position: absolute;
@@ -127,6 +131,8 @@ ul.menu.option.sub>li{
 }
 .menu.option.sub>li:hover{
     background-color: rgb(75, 14, 132);
+    border: 1px solid rgb(75, 14, 132);
+    border-radius: 10px 10px;
 }
 .menu.option.sub>li:hover >a{
     color: yellow;
@@ -561,6 +567,12 @@ div.iconn{
  .dichuyenanh{
     display: none;
  }
+ div.content3-1{
+    display: none;
+ }
+ #xemthem1{
+display: none;
+ }
 
   /*ipad*/
   @media screen and (max-width: 1024px) {
@@ -574,7 +586,7 @@ div.iconn{
    }
    .menu.option.sub{
     position: absolute;
-    margin-left: 180px;
+    margin-left: 140px;
     margin-top: 40px;
     z-index: 1000;
    }
@@ -669,6 +681,11 @@ div.iconn{
         transform: translateX(0%);
        
     }
+ul.menu.option.sub>li{
+    padding: 25px !important;
+    padding-left: 20px !important;
+    font-size: 18px;
+}
    div.col35.data{
     width: 100%;
    }
@@ -680,48 +697,64 @@ div.iconn{
     width: 90%;
     margin: 0 auto;
    }
-   .slide_show {
-    margin-top:58px ;
-    width: 400%;
-    transition: all 0.2s;
-    display: flex;
-    flex-wrap: wrap;
+   ul>li>p{
+    display: none;
+   }
+   div.contents>ul>li{
+    width: 18%;
+   }
+div.content3{
+    display: none;
 }
-.slide_show img{
-    width: 25%;
+div.content3-1{
+    display: block;
+    background-color: rgb(218, 196, 238);
+    
 }
-.slide{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    /* margin: 0 auto; */
-    z-index: 1;
+.content3-1>ul>li{
+    width: 45%;
+    padding: 25px 50px !important;
+    margin: 0px auto;
 }
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+div.footers.flex{
+    display: block;
+    text-align: center;
+}
+div.flex.st{
+    justify-content: center;
+    padding-top: 10px;
+}
+div.info.flex{
+    display: block;
+    text-align: center;
+}
+div.info.flex>iframe{
+width: 90%;
+padding-top: 20px;
+}
+.col35.if{
+display: flex;
+width: 90%;
+margin: 0px auto;
+
+
+}
+#pic2{
+    
+}
+#xemthem{
+    display: none;
+}
+#xemthem1{
+ display: block;
+    padding: 20px;
 }
 
- /* Position the "next button" to the right */
- .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-     
-}
+
+
+
+
 .all{
     overflow: hidden;
 }
