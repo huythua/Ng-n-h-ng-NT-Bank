@@ -796,7 +796,7 @@ margin: 0px auto;
     border-bottom: 4px solid #fff958;
     border-top: 4px solid #b858ff;
     border-radius: 50%;
-    animation: animate 2s linear infinite;
+    animation: animate 2s linear ;
 }
 @keyframes animate{
     0%
