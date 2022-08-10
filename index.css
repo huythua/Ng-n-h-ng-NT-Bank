@@ -590,9 +590,7 @@ display: none;
     margin-top: 40px;
     z-index: 1000;
    }
-   .box.col65{
-    display: none;
-   }
+ 
    main{
     padding: 0px;
    }
@@ -660,7 +658,14 @@ display: none;
         transform: translateX(-100%);
        
         transition: transform linear 0.5s;
+        z-index: 10000;
     }
+    div.box.col65{
+        width: 0%;
+       }
+       .box.col65{
+        display: none;
+       }
     .menu-mobile{
         margin-top: 60px;
     }    
@@ -689,9 +694,7 @@ ul.menu.option.sub>li{
    div.col35.data{
     width: 100%;
    }
-   div.box.col65{
-    width: 0%;
-   }
+   
    .dichuyenanh{
     display: block;
     width: 90%;
@@ -751,10 +754,110 @@ margin: 0px auto;
 }
 
 }
+ /*mobile*/
+ @media screen and (max-width: 739px){
+ div.col10{
+    width: 30%;
+    
+ } 
+ #logoo{
+    padding-right: 30px !important;
+ } 
+label.iconn{
+    font-size: 3rem;
+   
+}
+header{
+    position: fixed;
+    z-index: 100;
+}
+main{
+    padding: 40px;
+}
+.mobile>ul>li{
+padding: 30px 40px;
+}
+nav.flex{
+    display: block;
+}
+.flex.col25{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    justify-content: center;
+   
+   
+}
+.flex.col25>div>a{
+    font-weight: 600;
+}
+div.col35.nav.flex{
+    display: none;
+    
+}
+.flex.col35{
+    display:block;
+width: 100%;
+text-align: center;
+padding: 15px 10px;
+    
+   
+    font-size: 16px;
+   
+}
+.flex.col35>div{
+    padding: 10px;
+   display: inline;
+   border: 1px solid  rgb(75, 14, 132); 
+   background-color:  rgb(75, 14, 132); 
+}
+.flex.col35>div.dk{
+    padding: 10px 22px;
+}
+.flex.col35>div>a{
+    display: inline;
+}
 
+.andii{
+    display: none !important;
+}
+.new>a.flex{
+    flex-direction: column;
+}
+.new>a.flex>img{
+width: 80%;
+margin: 0px auto;
+height: 200px;
+}
+div.contents>ul.flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
+div.contents>ul>li{
+    width: 90%;
+}
+div.info>iframe{
+    width: 80%;
+    height: 300px;
+}
+.col35.if{
+flex-wrap: wrap;
+}
+.flex.content2{
+    flex-wrap: wrap;
+}
+.content3-1>ul>li{
+    width: auto;
+    padding: 25px 10px !important;
+}
+.content3-1>ul>li>div{
+    padding: 5px 0px;
+}
 
-
+ }
+     
 .all{
     overflow: hidden;
 }
