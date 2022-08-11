@@ -15,7 +15,7 @@ header{
     margin-bottom:0; 
     z-index: 1000;
     top: 0;
-   
+   padding-top: 20px;
    
 }
 div#first{
@@ -26,7 +26,15 @@ div#first{
     
 }
 div#first>div{
- padding:10px 10px 10px 1200px;
+    
+  
+        padding: 5px !important;
+        right: 0;
+        bottom: 0;  
+        top:0;
+        position: absolute;
+        display: block;
+       
 
 }
 .flex {
@@ -303,3 +311,54 @@ div.flex.st>div{
     line-height: 50px;
     /* display: none; */
   }
+  
+    
+ @media screen and (max-width: 1024px){
+ #first>div{
+  
+  padding: 5px !important;
+  
+ }   
+ 
+ header{
+    padding-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+.col10{
+  width: 15%;  
+}
+div.flex.menuu{
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 600;
+}
+.content3>div.flex.info>div{
+    padding: 0px;
+}
+div.flex.info{
+    width: 92%;
+    
+}
+div.flex.info>div>a>p{
+    padding-left: 115px;
+}
+#hanoi{
+    padding-left: 125px !important;
+}
+#tphcm{
+    padding-left: 95px !important;
+}
+#nuocngoai{
+    padding-left: 105px !important;
+}
+ul.flex.content2>li{
+    padding: 0px 0px 0px 85px;
+}
+.footers.flex{
+flex-wrap: wrap;
+}
+.flex.st{
+    padding: 10px;
+}
+ }

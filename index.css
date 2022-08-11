@@ -337,7 +337,7 @@ div.content2>h2{
 ul.flex.content2>li{
     text-align: center;
     margin: auto;
-    padding: auto;
+    padding: 0px 0px 0px 110px;
 
 }
 ul.flex.content2{
@@ -706,6 +706,9 @@ ul.menu.option.sub>li{
    div.contents>ul>li{
     width: 18%;
    }
+.content2>ul>li{
+    padding-left: 80px !important;
+}
 div.content3{
     display: none;
 }
@@ -847,6 +850,9 @@ flex-wrap: wrap;
 }
 .flex.content2{
     flex-wrap: wrap;
+}
+.content2>ul>li{
+    padding: 0px !important;
 }
 .content3-1>ul>li{
     width: auto;
