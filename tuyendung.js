@@ -14,3 +14,9 @@ $(document).ready(function() {
              scrollTop: 0 }
             , 800); //Animation giúp hoạt ảnh scroll ngược lên đầu trang sẽ mượt hơn
     });
+    
+})
+
+
+     
+

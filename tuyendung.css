@@ -367,4 +367,47 @@ flex-wrap: wrap;
         width: 100%;
         padding: 0px 0px 0px 10px !important;
     }
+    .flex.menu{
+        display: block;
+    }
+   
+    
+    .col20{
+        width: 60%;
+    }
+    
+   
+    .col70{
+        width: 100%;
+        border-top: 2px solid;
+        padding-top: 20px;
+        background-color: rgb(71, 152, 190);
+    }
+    nav.content1>div>a{
+        font-size: 25px;
+    }
+   .flex>img{
+        display: none;
+    }
+    div.flex.info>div>a>img{
+        display: none;
+    }
+    div.flex.info>div>a>p{
+        padding-left: 45px;
+    }
+    #hanoi{
+        padding-left: 45px !important;
+    }
+    #tphcm{
+        padding-left: 30px !important;
+    }
+    #nuocngoai{
+        padding-left: 30px !important;
+    }
+    .content2{
+        flex-wrap: wrap;
+    }
+    ul.flex.content2>li {
+        padding: 0px 0px 0px 5px !important;
+    }
 }
