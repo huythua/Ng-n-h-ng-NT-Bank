@@ -362,3 +362,9 @@ flex-wrap: wrap;
     padding: 10px;
 }
  }
+@media screen and (max-width: 740px) {
+    .col10>div>a>img {
+        width: 100%;
+        padding: 0px 0px 0px 10px !important;
+    }
+}
