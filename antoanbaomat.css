@@ -1,66 +1,9 @@
 body{
-    background-image: url(IMG/anhtpm.png);
+    /* background-image: url(IMG/anhtpm.png); */
     background-size: cover;
     height: 100vh;
  }
 
- #wrapper{
- min-height: 130vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- #form-login{
-     max-width: 400px;
-     background-color: rgba(0,0,0,0.7);
-     flex-grow: 1;
-     padding: 30px 30px 40px;
-     box-shadow: 0px 0px 17px 2px rgba(255,255,255,0.8);
- }
- .form-heading{
-     font-size: 25px;
-     color: white;
-     text-align: center;
-     margin-bottom: 30px;
- }
- .form-input{
-     background: transparent;
-     border: 0;
-     outline: 0;
-     color: white;
-     flex-grow: 1;
- }
- .form-group{
-     border-bottom: 1px solid white;
-     margin-top: 15px;
-     margin-bottom: 20px;
-     display: flex;
- }
- .form-input::placeholder{
-     color: white;
- }
- .form-submit{
-     background: transparent;
-     border:1px solid white;
-     width: 100%;
-     color: #ff9800;
-     text-transform: uppercase;
-     padding: 6px 10px;
-     margin-top: 30px;
-     margin-bottom: 20px;
-     background-color: #622a95;
- }
- .form-submit:hover{
-     border:1px solid  #5d2e86 ;
-    background-color:  transparent !important;
- }
- .form-group i {
-     color: #ff9800;
-     font-size: 15px;
-     padding-top: 5px;
-     padding-right: 10px;
-     padding-bottom: 5px;
- }
  * {
      padding: 0;
      margin: 0;
@@ -152,9 +95,7 @@ ul>li>a{
     text-decoration: none;
     color: white;
 }
-.language{
-    /* padding: 0px 0px 20px 0px; */
-}
+
 .subject{
 align-items: center;
    padding: 40px;
@@ -262,4 +203,48 @@ div.col35.nav>i:hover{
     text-align: center;
     font-size: 65px;
     color: yellow;
+}
+.p1{
+    text-align: center;
+    font-size: 60px;
+    background-color: antiquewhite;
+    font-weight: 500;
+    color: #622a95;
+}
+div>p{
+    color: black;
+}
+#wrapper{
+    max-width: 900px;
+    margin: 0px auto;
+    font-size: 20px;
+     }
+h2{
+   font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.accordion-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #e4e4e4;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+}
+.accordion-body{
+        padding: 10px 10px;
+        display: none; 
+}
+.accordion-item.active .accordion-header {
+    background: #622a95;
+    color: white;
+}
+.accordion-item.active .arrow{
+    transform: rotate(180deg);
+}
+.arrow{
+    transition: all 0.3;
 }
