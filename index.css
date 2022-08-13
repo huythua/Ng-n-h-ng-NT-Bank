@@ -500,8 +500,9 @@ div.contents>ul>li:hover{
     width: 25%;
 }
 .slide{
-    width: 100%;
+    /* visibility: hidden; */
     overflow: hidden;
+    width: 100%;
     position: relative;
     /* margin: 0 auto; */
     z-index: 1;
@@ -864,6 +865,54 @@ flex-wrap: wrap;
 
  }
      
+.video{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 60px;
+}
+#myVideo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+#myBtn{
+    width:50px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#myBtn:hover{
+    background: #ddd;
+    color: black;
+}
+
+/* .content{
+    position: absolute;
+    bottom: 0;
+    background: none;
+    width: 100%;
+    padding: 20px;
+} */
 .all{
     overflow: hidden;
+}
+.para p{
+    color: #000 !important;
+    margin-bottom: 20px;
+    font-weight: 400;
+padding: 10px;
+margin-top: 30px;
+}
+
+.para h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgb(242, 171, 48);
 }
