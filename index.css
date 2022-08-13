@@ -585,6 +585,9 @@ display: none;
    div.col10{
     width: 20%;
    }
+   section.slide{
+    display: none;
+   }
    .menu.option.sub{
     position: absolute;
     margin-left: 140px;
@@ -808,6 +811,9 @@ padding: 15px 10px;
    
     font-size: 16px;
    
+}
+.video{
+    height: 300px !important
 }
 .flex.col35>div{
     padding: 10px;
