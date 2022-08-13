@@ -248,3 +248,57 @@ h2{
 .arrow{
     transition: all 0.3;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 741px )  {
+   main{
+    padding: 60px;
+   }
+   .col35.nav.flex{
+    display: none;
+  
+} 
+.flex{
+    justify-content: center;
+}
+.flex.col25{
+    width: 60%;
+   font-size: 16px;
+   
+
+
+}
+.flex.col35{
+   display: none;
+}
+.flex div a{
+    font-weight: 600;
+}
+.andi{
+    display: none;
+}
+.flex.col35>div>a{
+    padding: 10px 20px;
+}
+}
+@media screen and (max-width:740px )  {
+    main{
+        padding: 40px;
+    }
+.flex.col25{
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+}
+.flex.col35{
+    display: none;
+ }
+
+.flex.col25>div>a{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.bg{
+    padding: 20px;
+    background-color: rgb(224, 205, 112);
+}
+}
