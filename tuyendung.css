@@ -214,6 +214,10 @@ section.content2{
 }
 
 .content3>h1{
+    color: yellow;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
     padding: 15px;
     text-align: center;
 }   
@@ -244,7 +248,7 @@ div.flex.info>div>a>p{
     padding-left: 140px !important;
 }
 div.flex.info>div>a>img:hover{
-    background-color: rgb(105, 224, 210);
+    background-color: rgb(54, 87, 185);
 }
 div>a.xem{
     border: 1px solid bule;
