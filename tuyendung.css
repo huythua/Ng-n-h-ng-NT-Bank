@@ -315,8 +315,16 @@ div.flex.st>div{
     line-height: 50px;
     /* display: none; */
   }
-  
-    
+  #scc{
+    z-index: 1000;
+  }
+  ul.menu.option.sub>li:last-child {
+    border-bottom: 0px;
+}
+ul.menu.option.sub>li:last-child:hover{
+    border-radius: 0px 0px 10px 10px;
+}
+
  @media screen and (max-width: 1024px){
  #first>div{
   
