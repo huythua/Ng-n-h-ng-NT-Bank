@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/IMG/logo.png">
-    <title>NT an toàn bảo mật</title>
+    <title>NT Tỷ Giá</title>
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/tygia.css">
+    <link rel="stylesheet" href="/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.js" ></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+   
   <body>
     <div class="all">
     <header class="flex">
@@ -128,6 +131,14 @@
     </nav>
     <section>
         <div> <img style="width:100%" src="/IMG/tygia.png" alt="tygia"></div>
+        <div class="datee">
+            <input type="date" id="ngay">
+            <p>Ngày cập nhật  <label for="ngay"> <i class="fa-solid fa-calendar-days"></i></label>
+                  
+            </p>
+            <p id="date"> </p>
+            <p>Số lần cập nhật trong ngày <input type="number" value="1" min="1" max="1"></p>
+        </div>
         <div class="table">
         <table s >
             <thead>
@@ -142,6 +153,14 @@
                 </tr>
              </thead>
             <tbody>
+                <tr>
+                    <td>
+                    <p>...</p>
+                    </td>
+                    <td>Tiền mặt</td>
+                    <td>Chuyển khoản</td>
+                    <td></td>
+                </tr>
                 <tr>
                     <td><p>Đô la Mỹ (USD)</p></td>
                     <td>23.200,00</td>
@@ -193,6 +212,62 @@
             </tbody>
         </table>
     </div>
+    <div class="datee">
+        <input type="date" id="ngay">
+        <p>Ngày cập nhật  <label for="ngay"> <i class="fa-solid fa-calendar-days"></i></label>
+              
+        </p>
+        <p id="dates"> </p>
+        <p>Số lần cập nhật trong ngày <input type="number" value="1" min="1" max="1"></p>
+    </div>
+    <div class="table">
+    <table s >
+        <thead>
+            <tr >
+                <th  colspan="4">Tỷ giá vàng</th>
+                
+                
+            </tr>
+            <tr>
+                <th>Loại vàng</th>
+                <th>Giá Mua</th>
+                <th>Giá Bán</th>
+                <th>Đơn vị tính</th>
+            </tr>
+         </thead>
+        <tbody>
+           
+            <tr>
+                <td><p>Vàng SJC - 1 Lượng</p></td>
+                <td>6.550.000,00</td>
+                <td>6.770.000,00</td>
+                <td>Chỉ</td>
+            </tr>
+            <tr>
+                <td><p>Vàng SJC - 5 Chỉ</p></td>
+                <td>6.545.000,00</td>
+                <td>6.775.000,00</td>
+                <td>Chỉ</td>
+            </tr>
+            <tr>
+                <td><p>Vàng SJC - 2 Chỉ</p></td>
+                <td>6.545.000,00</td>
+                <td>6.775.000,00</td>
+                <td>Chỉ</td>
+            </tr>
+            <tr>
+                <td><p>Vàng SJC - 1 Chỉ</p></td>
+                <td>6.545.000,00</td>
+                <td>6.775.000,00</td>
+                <td>Chỉ</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+</section>
+<footer>
+    
     </section>
     <footer>
         <div class="content2">
@@ -224,6 +299,7 @@
             
         </div>
         <hr>
+        
         <div class="content3">        
             <ul class="flex content3">
                 <li>
@@ -275,5 +351,6 @@
         </div>
     </footer>  
 <script src="antoanbaomat.js"></script>
+<script src="/tygia.js"> </script>
   </body>
   

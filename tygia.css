@@ -15,8 +15,9 @@ table {
     border-color: grey;
 }
  .table table {
-    width: 100%;
+    width: 90%;
     font-size: 16px;
+    margin:  0px auto 40px;
 }
 table {
     border-collapse: collapse;
@@ -44,4 +45,26 @@ table {
     display: flex;
     align-items: center;
     padding: 8px 20px;
+}
+tr>td>p{
+    color: #0772ba;
+}
+.datee{
+    
+    margin: 30px 10px 0px 74px;
+    background: linear-gradient( rgb(133, 174, 244), #0772ba);
+    padding: 10px 0px 10px 60px;
+    width: 25%;
+    border-radius: 20px 0px 0px 0px;
+}   
+div.datee>p{
+    color: white;
+}
+#ngay{
+    display: none;
+}
+@media screen and (max-width: 740px){
+    div.andi{
+        display: none !important;
+    }
 }
