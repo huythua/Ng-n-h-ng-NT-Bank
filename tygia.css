@@ -56,19 +56,29 @@ div.datee>p{
 #ngay{
     display: none;
 }
-@media screen and (max-width: 740px){
-    div.andi{
-        display: none !important;
-    }
-}
 .change{
     background-color: #5d278f ;
- margin: 50px;
- padding: 50px;
- width: 25%;
+ margin: 50px auto;
+ padding: 50px 250px;
+ width: 55%;
  color: #f5fbff;
 }
+#stId, #dvId{
+    padding: 5px !important;
+    margin: 5px;
+}
+#kq2{
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #b89bd4 ;
 
+}
+input[type=button]{
+    padding: 5px !important;
+    margin: 15px 5px 5px 110px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 10px;
@@ -105,4 +115,39 @@ div.datee>p{
     pointer-events: auto;
     opacity: 1;
 
+}
+
+@media screen and (max-width: 740px){
+    div.andi{
+        display: none !important;
+    }
+    .datee{
+        width: 90%;
+        margin: 10px 20px 0px 10px;
+        padding-left: 20px !important;
+    }
+    .change{
+        width: 80% !important;
+        padding: 0px !important ;
+        margin: 0px auto !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    div.andi{
+        display: none !important;
+    }
+    .datee{
+        width: 90%;
+        margin: 10px 20px 0px 38px;
+        padding-left: 40px !important;
+    }
+    .change{
+        width: 80% !important;
+        padding: 0px !important ;
+        margin: 0px auto !important;
+
+    }
+    table{
+        margin: 0px auto  !important;
+    }
 }
