@@ -25,7 +25,7 @@ table {
  .table table thead tr th {
     border-right: 1px solid #4396cd;
     border-bottom: 1px solid #4396cd;
-    background: #0772ba;
+    background: #5d278f;
     padding: 8px 10px;
     color: #fff;
     font-weight: 400;
@@ -52,7 +52,7 @@ tr>td>p{
 .datee{
     
     margin: 30px 10px 0px 74px;
-    background: linear-gradient( rgb(133, 174, 244), #0772ba);
+    background: linear-gradient(#793cb3, #5d278f);
     padding: 10px 0px 10px 60px;
     width: 25%;
     border-radius: 20px 0px 0px 0px;
@@ -69,10 +69,11 @@ div.datee>p{
     }
 }
 .change{
-    background-color: white;
- margin: 50px ;  
- padding: 20px;
+    background-color: #5d278f ;
+ margin: 50px;
+ padding: 25px;
 }
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 10px;
