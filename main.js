@@ -6,3 +6,4 @@ function myFunction() {
         show.type="password";
     }
 }
+

@@ -922,3 +922,28 @@ margin-top: 30px;
     font-size: 40px;
     color: rgb(242, 171, 48);
 }
+.to-top{
+    background: hsl(271, 57%, 65%);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: rgb(75, 14, 132);
+    text-decoration: none;
+    opacity: 0;
+     /* blur */
+     pointer-events: none;
+     transition: all .4s;
+}
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+
+}

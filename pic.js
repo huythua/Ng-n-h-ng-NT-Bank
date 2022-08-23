@@ -19,15 +19,12 @@ setInterval(function() {
     Next();
 }, 3000);
 
-// var video= document.getElementById("myVideo");
-// var btn = document.getElementById("myBtn");
-// function myFunction(){
-//     if(video.paused){
-//         video.play();
-//         btn.innerHTML="Pause";
-//     }
-//     else{
-//         video.pause();
-//         btn.innerHTML="Play";
-//     }
-// }
+const toTop = document.querySelector(".to-top");
+window.addEventListener("scroll" , () =>{
+    if(window.pageYOffset > 1100){
+        toTop.classList.add("active");
+        
+    } else{
+        toTop.classList.remove("active");
+    }
+})
