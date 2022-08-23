@@ -5,3 +5,12 @@ $('.accordion-header').click(function(){
     $(this).parent().children('.accordion-body').slideToggle();
 });
 });
+const toTop = document.querySelector(".to-top");
+window.addEventListener("scroll" , () =>{
+    if(window.pageYOffset > 1100){
+        toTop.classList.add("active");
+        
+    } else{
+        toTop.classList.remove("active");
+    }
+})

@@ -256,40 +256,7 @@ div.col35.nav>i:hover{
     color: yellow;
 }
  
- /* ul.menu>li{
-     display: flex;
-     min-width: 100px;
-     text-align: center;
-     margin-left: 100px;
- }
- ul.menu>li>i{
-     padding-top: 8px;
-     margin-left: 10px;
-     margin-right: 5px;
-     color: #ff9800;
-    
- }
- ul.menu>li>a{
-     display: block;
-     padding: 5px 5px;
-     text-decoration: none;
-     font-size: 130%;
-  color: #ff9800;
- }
- 
- ul.menu>li>a:hover{
-     color: palevioletred;
- }
- #name{
-  
-     width: 20%;
-     color: white;
-     font-size: 1.5rem;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
- h1{
-     margin: 0px;
- } */
+
 
  .pass{
      color:#ff9800; 
@@ -345,3 +312,28 @@ div.col35.nav>i:hover{
     
     }
    }
+   .to-top{
+    background: hsl(271, 57%, 65%);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: rgb(75, 14, 132);
+    text-decoration: none;
+    opacity: 0;
+     /* blur */
+     pointer-events: none;
+     transition: all .4s;
+}
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+
+}
