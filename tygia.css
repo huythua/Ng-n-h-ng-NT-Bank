@@ -71,7 +71,9 @@ div.datee>p{
 .change{
     background-color: #5d278f ;
  margin: 50px;
- padding: 25px;
+ padding: 50px;
+ width: 25%;
+ color: #f5fbff;
 }
 
 /* SCROLLBAR */
