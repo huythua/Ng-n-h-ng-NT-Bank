@@ -15,7 +15,7 @@ function doiTien(){
         case "eur":
             kq= st/ 26000;
         break;
-        case "eur":
+        case "usd":
             kq= st/ 22000;
         break;
         case "aud":
@@ -25,7 +25,7 @@ function doiTien(){
     }
     let k= document.getElementById("kq2");
     k.innerHTML = `${st} VND = ${kq} ${dv.toUpperCase()}`;
-    
+    // let kq2= num.toFixed(2);
 }
 const toTop = document.querySelector(".to-top");
 window.addEventListener("scroll" , () =>{

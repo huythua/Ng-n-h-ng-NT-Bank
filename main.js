@@ -16,3 +16,17 @@ window.addEventListener("scroll" , () =>{
         toTop.classList.remove("active");
     }
 })
+function request(){
+var hien= document.getElementsByClassName("form-input")[0].value;
+if(hien !=""){
+    Swal.fire(
+        'Thành Công!',
+        'Đã Gửi Link Cấp Lại Mật Khẩu Vào Số Điện Thoại',
+        'success'
+      )
+    }else{
+
+    }
+}
+
+
