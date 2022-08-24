@@ -9,7 +9,9 @@
     <link href="index.css" rel="stylesheet"/>
     <link rel="stylesheet" href="login.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
-   
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
 </head>
 <body>
     <div class="all">
@@ -137,13 +139,13 @@
             </div>
             <div class="form-group">
                 <i class="fa fa-key" aria-hidden="true"></i>
-                <input type="password" class="form-input" placeholder="Mật khẩu" id="Showpassword" required="required">
+                <input type="password" class="form-input" placeholder="Mật khẩu" id="Showpassword" required="required" >
                 <div id="eye">
-                    <i class="fa fa-eye" aria-hidden="true" onclick="myFunction()"></i>
+                    <i class="fa fa-eye" aria-hidden="true" onclick="myFunction()" ></i>
                 </div>
                
             </div>
-            <input type="button" value="Đăng nhập" class="form-submit">
+            <input type="button" value="Đăng nhập" class="form-submit" onclick="enter()">
             <div>
            <div> <a class="pass" href="/pass.html">Quên mật khẩu?</a></div>
            <div><a class="acc" href="/logup.html">Chưa có tài khoản? Tạo tài khoản</a></div>
