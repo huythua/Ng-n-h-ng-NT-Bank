@@ -1,4 +1,6 @@
-
+body{
+    background: lightgrey;
+}
 table {
     display: table;
     border-collapse: separate;
@@ -74,10 +76,13 @@ div.datee>p{
 
 }
 input[type=button]{
-    padding: 5px !important;
+    padding: 15px !important;
     margin: 15px 5px 5px 110px;
     cursor: pointer;
     background-color: #ffffff;
+}
+input[type=button]:hover{
+    background-color:rgb(212, 209, 209);
 }
 /* SCROLLBAR */
 ::-webkit-scrollbar {
@@ -114,6 +119,11 @@ input[type=button]{
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
+
+}
+.to-top:hover{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
 
 }
 

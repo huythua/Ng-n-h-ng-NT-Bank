@@ -21,12 +21,11 @@ function doiTien(){
         case "aud":
             kq= st/ 16000;
         break;
-
     }
     let k= document.getElementById("kq2");
-    k.innerHTML = `${st} VND = ${kq} ${dv.toUpperCase()}`;
-    // let kq2= num.toFixed(2);
+    k.innerHTML = `${st} VND = ${kq.toLocaleString()} ${dv.toUpperCase()}`;
 }
+
 const toTop = document.querySelector(".to-top");
 window.addEventListener("scroll" , () =>{
     if(window.pageYOffset > 1100){
