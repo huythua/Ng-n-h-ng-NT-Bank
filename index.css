@@ -27,6 +27,8 @@ main{
 }
 header div{
     max-width: 100%;
+    align-items: center;
+    display: flex;
 }
 .flex {
     display: flex;
