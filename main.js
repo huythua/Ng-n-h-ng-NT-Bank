@@ -33,34 +33,10 @@ if(hien !=""){
     }
 }
 
-function enter(){
-    var save= document.getElementsByClassName("form-input")[0].value;
-    if(save !=""){
-        Swal.fire({
-            title: 'Do You Want To Save The Passwords?',
-            showDenyButton: true,
-            showCancelButton: true,
-            confirmButtonText: 'Save',
-            denyButtonText: `Don't save`,
-          }).then((result) => {
-            /* Read more about isConfirmed, isDenied below */
-            if (result.isConfirmed) {
-              Swal.fire('Saved!', '', 'success')
-            } else if (result.isDenied) {
-              Swal.fire('Password is not saved!', '', 'info')
-            }
-          })
-        }else{
-            Swal.fire({     
-                title: 'Oops...',
-                text: 'Bạn Chưa Nhập Số Điện Thoại / Tên Đăng Nhập',
-               
-              })
-        }
-    }
+
     function enter(){
-        var save= document.getElementsByClassName("form-input")[1].value;
-        var save1= document.getElementsByClassName("form-input")[0].value;
+        var save= document.getElementsByClassName("form-input")[0].value;
+        var save1= document.getElementsByClassName("form-input")[1].value;
         if(save !="" && save1!="" ){
             Swal.fire({
                 title: 'Do You Want To Save The Passwords?',
@@ -69,7 +45,7 @@ function enter(){
                 confirmButtonText: 'Save',
                 denyButtonText: `Don't save`,
               }).then((result) => {
-                /* Read more about isConfirmed, isDenied below */
+  
                 if (result.isConfirmed) {
                   Swal.fire('Saved!', '', 'success')
                 } else if (result.isDenied) {
